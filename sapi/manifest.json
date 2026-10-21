@@ -7,8 +7,8 @@
   "requires": [],
   "permissions": [
     "config:read:activity_log",
-    "db:read:sfmc_activities",
-    "db:write:sfmc_activities",
+    "db:read:activities",
+    "db:write:activities",
     "service:activity.record",
     "service:activity.query"
   ],
