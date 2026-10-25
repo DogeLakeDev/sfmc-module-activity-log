@@ -1,6 +1,6 @@
 {
   "name": "@sfmc-bds/module-activity-log",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "packageManager": "pnpm@12.8.1",
   "type": "module",
   "description": "SAPI module: 行为日志",

@@ -1,3 +1,7 @@
+## 0.3.1
+
+- 修正 manifest 中的数据库权限名：由 `db:read/write:sfmc_activities` 改为与实际表名一致的 `db:read/write:activities`。0.3.0 因权限名不符，写入被 db-server 拒绝（`缺少权限 "db:write:activities"`），记录无法入库。
+
 ## 0.2.4
 
 - 修复 `flush()` 异常时由于立即重试可能导致的死循环与 CPU 飙高风险，加入失败冷却退避。
