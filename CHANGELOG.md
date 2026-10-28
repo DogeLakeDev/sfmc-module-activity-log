@@ -1,3 +1,7 @@
+## 0.3.2
+
+- 适配 BDS 1.26.60：`@minecraft/server` 升级到 2.12.0-beta、`@minecraft/server-ui` 升级到 2.4.0-beta，`@minecraft/server-net` 与 `@minecraft/vanilla-data` 同步到 1.26.60。安装后聚合行为包声明 `@minecraft/server@2.12.0-beta`，只能在 BDS 1.26.60 上加载；1.26.52 及更早的服务器请继续使用上一版本。
+
 ## 0.3.1
 
 - 修正 manifest 中的数据库权限名：由 `db:read/write:sfmc_activities` 改为与实际表名一致的 `db:read/write:activities`。0.3.0 因权限名不符，写入被 db-server 拒绝（`缺少权限 "db:write:activities"`），记录无法入库。
